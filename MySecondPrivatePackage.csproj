@@ -15,7 +15,7 @@
     <PackageProjectUrl>https://github.com/Valmir-de-Lima/my-second-private-package</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Title>MySecondPrivatePackage</Title>
-    <Summary>Meu segundo pacote de exemplo</Summary>
+    <Summary>Meu segundo pacote de exemplo.</Summary>
 
   </PropertyGroup>
 
