@@ -4,6 +4,19 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MySecondPrivatePackage</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Valmir de Lima</Authors>
+    <PackageDescription>Meu segundo pacote de exemplo</PackageDescription>
+    <Description>Meu segundo de exemplo</Description>
+    <RepositoryUrl>https://github.com/Valmir-de-Lima/my-second-private-package</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Valmir-de-Lima/my-second-private-package</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Title>MySecondPrivatePackage</Title>
+    <Summary>Meu segundo pacote de exemplo</Summary>
+
   </PropertyGroup>
 
   <ItemGroup>
