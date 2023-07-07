@@ -16,9 +16,9 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '7.0.x'
-        
+
     - name: Add GitHub Packages Source
-      run: dotnet nuget add source https://nuget.pkg.github.com/valmir-de-lima/index.json -n github -u valmir-de-lima -p ${{secrets.GITHUB_TOKEN}} --store-password-in-clear-text
+      run: dotnet nuget add source https://nuget.pkg.github.com/valmir-de-lima/index.json -n github -u valmir-de-lima -p ${{secrets.myprivatepackage}} --store-password-in-clear-text
   
     - name: Build with dotnet
       run: dotnet build --configuration Release
